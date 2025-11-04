@@ -76,13 +76,27 @@ namespace CSharpPractice
              = new Constructor();*/
             // parameterized constructor
 
-            Inheritance inheritance = new Inheritance();
-            Inheritance2 inheritance2 = new Inheritance2();
-            inheritance2.Test1();
-            inheritance2.Test2();
-            inheritance2.Test3();
-            inheritance2.Test4();
+            //Inheritance inheritance = new Inheritance();
+            //Inheritance2 inheritance2 = new Inheritance2();
+            //inheritance2.Test1();
+            //inheritance2.Test2();
+            //inheritance2.Test3();
+            //inheritance2.Test4();
+
+            Paramss p = new Paramss();
+            var someofnumbers = p.parameters(1,2,3,4,5);
+
+            Console.WriteLine(someofnumbers);
+
+
+            var newparameters = p.parametersWithOtherParam("sum of given numbers",1,2,3,4,5);
+
+
+            Console.WriteLine(newparameters);
+
             Console.ReadLine();
+
+
 
 
         }
