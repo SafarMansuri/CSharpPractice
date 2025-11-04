@@ -4,6 +4,7 @@ namespace CSharpPractice
 {
     internal class Program
     {
+        // cheking git connection
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
