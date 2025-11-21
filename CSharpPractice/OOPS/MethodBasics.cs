@@ -59,6 +59,12 @@ namespace CSharpPractice.OOPS
             product = a * b;
         }
 
+        public void paramsmethod(double[] args) {
+
+            Console.WriteLine("params example",args);
+
+        }
+
      
 
     }

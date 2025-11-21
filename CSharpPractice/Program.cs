@@ -1,4 +1,5 @@
 ﻿using CSharpPractice.BasicPrograms;
+using CSharpPractice.Loops;
 using CSharpPractice.OOPS;
 namespace CSharpPractice
 {
@@ -93,6 +94,9 @@ namespace CSharpPractice
 
             Console.WriteLine(newparameters);
 
+            LoopsExample loop = new LoopsExample();
+            loop.PrintUsingForLoop();
+            loop.PrintUsingForInloop();
             Console.ReadLine();
 
 
