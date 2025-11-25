@@ -17,7 +17,7 @@ namespace CSharpPractice.OOPS
         public void Display() {
             Console.WriteLine("Display method called");
         }
-
+        
         public Constructor(int a) {
             Console.WriteLine("Constructor with parameter called: " + a);
         }

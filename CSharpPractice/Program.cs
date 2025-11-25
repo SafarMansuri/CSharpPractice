@@ -61,47 +61,63 @@ namespace CSharpPractice
              Console.WriteLine("Out Sum: " + outSum + ", Out Product: " + outProduct);
              Console.ReadLine();*/
 
-             Constructor constructor3
-                 = new Constructor(10);
+            //  Constructor constructor3
+            //      = new Constructor(10);
 
 
 
-             Constructor constructor1
-                 = new Constructor();
+            //  Constructor constructor1
+            //      = new Constructor();
 
-             Constructor constructor2
-                 = new Constructor();
-             constructor2.Display();
-             Constructor constructor
-             = new Constructor();
-           // parameterized constructor
+            //  Constructor constructor2
+            //      = new Constructor();
+            //  constructor2.Display();
+            //  Constructor constructor
+            //  = new Constructor();
+            //// parameterized constructor
 
-            Inheritance inheritance = new Inheritance();
-            Inheritance2 inheritance2 = new Inheritance2();
-            inheritance2.Test1();
-            inheritance2.Test2();
-            inheritance2.Test3();
-            inheritance2.Test4();
+            // Inheritance inheritance = new Inheritance();
+            // Inheritance2 inheritance2 = new Inheritance2();
+            // inheritance2.Test1();
+            // inheritance2.Test2();
+            // inheritance2.Test3();
+            // inheritance2.Test4();
 
-            Paramss p = new Paramss();
-            var someofnumbers = p.parameters(1,2,3,4,5);
+            // Paramss p = new Paramss();
+            // var someofnumbers = p.parameters(1,2,3,4,5);
 
-            Console.WriteLine(someofnumbers);
-
-
-            var newparameters = p.parametersWithOtherParam("sum of given numbers",1,2,3,4,5);
+            // Console.WriteLine(someofnumbers);
 
 
-            Console.WriteLine(newparameters);
+            // var newparameters = p.parametersWithOtherParam("sum of given numbers",1,2,3,4,5);
 
-            LoopsExample loop = new LoopsExample();
-            loop.PrintUsingForLoop();
-            loop.PrintUsingForInloop();
+
+            // Console.WriteLine(newparameters);
+
+            // LoopsExample loop = new LoopsExample();
+            // loop.PrintUsingForLoop();
+            // loop.PrintUsingForInloop();
+            // Console.WriteLine();
+
+            //FieldsDemo fields = new FieldsDemo();
+            //Console.WriteLine("Fields demo class :-"+ fields.x);
+            //Console.WriteLine("Foelds demo age" + fields.age);
+
+            //Console.WriteLine("Fieldsdemo y:-"+ FieldsDemo.y);
+            //Console.WriteLine("FieldsDemo const"+ FieldsDemo.PI);
+            //// modify the variables
+            //fields.x = 1;
+            ////fields.age = 2;
+            //FieldsDemo.y = 2;
+            ////FieldsDemo.PI = 3;
+            //Console.Beep();
+            //Console.ReadLine();
+
+           // FieldsDemo fields = new FieldsDemo();
+
             Console.ReadLine();
 
-
-
-
         }
+
     }
 }
