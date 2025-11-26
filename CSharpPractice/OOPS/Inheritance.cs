@@ -9,9 +9,8 @@ namespace CSharpPractice.OOPS
     internal class Inheritance
     {
         public Inheritance() { 
-          Console.WriteLine("Constructor called...");
+          Console.WriteLine("Constructor called of Inheritance called...");
         }
-
         public void Test1()
         { 
           Console.WriteLine("Test1 method called...");
@@ -19,6 +18,11 @@ namespace CSharpPractice.OOPS
         public void Test2()
         {
             Console.WriteLine("Test2 method called...");
+        }
+
+        // Overriding Example
+        public virtual void example() {
+            Console.WriteLine("Parent calss exmaple method");
         }
 
         }

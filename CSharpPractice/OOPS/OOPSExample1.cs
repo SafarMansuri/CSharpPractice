@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpPractice.OOPS
 {
-    internal class OOPSExample1
+    public class OOPSExample1
     {
         // No value returning with out parameters
         public void Test()

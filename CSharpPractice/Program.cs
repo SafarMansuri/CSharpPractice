@@ -76,12 +76,14 @@ namespace CSharpPractice
             //  = new Constructor();
             //// parameterized constructor
 
-            // Inheritance inheritance = new Inheritance();
-            // Inheritance2 inheritance2 = new Inheritance2();
-            // inheritance2.Test1();
-            // inheritance2.Test2();
-            // inheritance2.Test3();
-            // inheritance2.Test4();
+            //Inheritance inheritance = new Inheritance();
+            //Inheritance2 inheritance2 = new Inheritance2();
+            //inheritance2.Test1();
+            //inheritance2.Test2();
+            //inheritance2.Test1(2);
+            //inheritance2.Test4();
+            //inheritance.example();
+            //inheritance2.example();
 
             // Paramss p = new Paramss();
             // var someofnumbers = p.parameters(1,2,3,4,5);
@@ -113,8 +115,18 @@ namespace CSharpPractice
             //Console.Beep();
             //Console.ReadLine();
 
-           // FieldsDemo fields = new FieldsDemo();
+            // FieldsDemo fields = new FieldsDemo();
 
+
+            //Polymorsphism polymorsphism = new Polymorsphism();
+            //polymorsphism.show();
+            //polymorsphism.show(2);
+            //polymorsphism.show("safar");
+
+            //AbstractChild abstractChild = new AbstractChild();
+            //abstractChild.div(2, 4);
+            //abstractChild.mul(3, 5);
+            //abstractChild.abstractchildmember();
             Console.ReadLine();
 
         }
