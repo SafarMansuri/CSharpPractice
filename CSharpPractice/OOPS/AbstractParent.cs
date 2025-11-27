@@ -44,9 +44,5 @@ namespace CSharpPractice.OOPS
         
           Console.WriteLine("pure child class memebres");
         }
-
-
-
-
     }
 }

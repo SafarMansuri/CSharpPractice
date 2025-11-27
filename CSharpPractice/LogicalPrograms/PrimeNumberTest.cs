@@ -15,14 +15,19 @@ namespace CSharpPractice.LogicalPrograms
             Console.WriteLine("Enter a positive integer: ");
             number = Convert.ToUInt32(Console.ReadLine());
 
-            bool isPrime = true;
 
-            if (number == 0 || number == 1) { 
-             Console.WriteLine("Please Enter a value more than 0 and 1");
+            if (number == 0 || number == 1)
+            {
+                Console.WriteLine("Please Enter a value more than 0 and 1");
+                return;
             }
+            bool isPrime = true;
+            uint halfnumber = number / 2;
 
 
 
         }
+
     }
+
 }

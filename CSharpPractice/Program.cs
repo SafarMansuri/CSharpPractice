@@ -1,6 +1,9 @@
 ﻿using CSharpPractice.BasicPrograms;
+using CSharpPractice.Collections;
+using CSharpPractice.LogicalPrograms;
 using CSharpPractice.Loops;
 using CSharpPractice.OOPS;
+using System.Collections;
 namespace CSharpPractice
 {
     internal class Program
@@ -127,6 +130,29 @@ namespace CSharpPractice
             //abstractChild.div(2, 4);
             //abstractChild.mul(3, 5);
             //abstractChild.abstractchildmember();
+
+            //Program1 p = new Program1();
+            //p.Test2_internal();
+            //p.Test4_protectedinternal();
+            //p.Test5_public();
+
+            //// accesssing proptected memebers
+
+            //Program2 p2 = new Program2();
+            //p2.Test2_internal();
+            //p2.Test4_protectedinternal();
+            //p2.Test5_public();
+            //p2.callprotected();
+
+            // Logical Programs
+
+            //PrimeNumberTest primeNumberTest = new PrimeNumberTest();
+            //primeNumberTest.CheckPrime();
+
+            NonGeneric s = new NonGeneric();
+            //s.stackexecution();
+            //s.QueueEceution();
+            s.ArrayListExecution();
             Console.ReadLine();
 
         }
