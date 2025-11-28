@@ -174,7 +174,7 @@ namespace CSharpPractice
             //n.DictionaryExecution();
             //n.ColletioninitializerExample();
             LinqExample example = new LinqExample();
-            example.linqExectution();
+            example.linqExectution2();
             Console.ReadLine();
 
         }
