@@ -118,6 +118,32 @@ namespace CSharpPractice.Collections
             Console.WriteLine("initial capacity of arraylist1 is :   " + arrylist1.Capacity);
 
         }
+        public void HashtableExecution() { 
+           Hashtable hashtable = new Hashtable();
+            hashtable.Add("ID",100);
+            hashtable.Add("name","safar");
+            hashtable.Add("male",true);
+            hashtable.Add("marks", 2.34);
+
+
+            // pritnint hashtable values
+            foreach (var i in hashtable) {
+
+                Console.WriteLine(i + " ");
+            }
+
+            //have to print this based on the key value pairs
+
+            foreach (var key in hashtable.Keys) {
+
+                Console.WriteLine(key);
+                Console.WriteLine(hashtable[key]);
+                Console.WriteLine(key + "  " + hashtable[key]);
+            }
+
+
+        
+        }
     }
 
 

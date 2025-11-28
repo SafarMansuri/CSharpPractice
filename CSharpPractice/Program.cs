@@ -149,10 +149,32 @@ namespace CSharpPractice
             //PrimeNumberTest primeNumberTest = new PrimeNumberTest();
             //primeNumberTest.CheckPrime();
 
-            NonGeneric s = new NonGeneric();
+            // NonGeneric s = new NonGeneric();
             //s.stackexecution();
             //s.QueueEceution();
-            s.ArrayListExecution();
+            //s.ArrayListExecution();
+            //s.HashtableExecution();
+
+            Generic n = new Generic();
+            //Console.WriteLine(n.Genericmethod<int>(2, 2));
+            //Console.WriteLine(n.Genericmethod<bool>(true, false));
+            //Console.WriteLine(n.Genericmethod<string>("safar", "safar"));
+            //Console.WriteLine(n.Genericmethod<double>(2.2, 2));
+
+            //GenericClass<int> genericClass = new GenericClass<int>();
+            //Console.WriteLine(genericClass.Add(2, 3));
+
+            //GenericClass<string> genericClass1 = new GenericClass<string>();
+            //Console.WriteLine(genericClass1.Add("safar" , "safar"));
+
+            // you can see in above using the same classes we can call the methods
+            /// for diffrant datatypes so that is the power of generics
+            //n.ListExecution();
+
+            //n.DictionaryExecution();
+            //n.ColletioninitializerExample();
+            LinqExample example = new LinqExample();
+            example.linqExectution();
             Console.ReadLine();
 
         }
