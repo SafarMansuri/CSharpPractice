@@ -16,6 +16,7 @@ namespace CSharpPractice.OOPS
             c = a + b;
             return c;
         }
+      
 
         // Referance Example
         public int MathRef(ref int a, ref int b) {

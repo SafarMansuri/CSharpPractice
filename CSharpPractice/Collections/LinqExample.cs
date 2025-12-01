@@ -37,6 +37,17 @@ namespace CSharpPractice.Collections
 
             var color3 = from i in color orderby i descending select i;
             Console.WriteLine(String.Join(", ", color3));
+
+            // get the colors whose length is 5
+            var color4 = from i in colors where i.Length == 5 select i;
+            Console.WriteLine(String.Join(", ", color4));
+
+            // get list of collors whose name start with 'B'
+            var color5 = from i in colors where i[0] == 'B' select i;
+            Console.WriteLine(String.Join(", ", color5));
+
+            var color6 = from i in colors where i.StartsWith('B') select i;
+            Console.WriteLine(String.Join(",", color6));
         }
     }
 }
