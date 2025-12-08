@@ -1,4 +1,8 @@
 
+using SampleWebApiwithllifeCycle.Data;
+using SampleWebApiwithllifeCycle.Repository;
+using SampleWebApiwithllifeCycle.Services;
+
 namespace SampleWebApiwithllifeCycle
 {
     public class Program
@@ -13,6 +17,11 @@ namespace SampleWebApiwithllifeCycle
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddScoped<AppDbContext>();
+            builder.Services.AddScoped<UserRepository>();
+            builder.Services.AddScoped<UserService>();
+
 
             var app = builder.Build();
 
